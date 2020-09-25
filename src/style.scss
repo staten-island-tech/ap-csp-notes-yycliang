@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; //makes font size 10px
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem; //px, rem, 1rem= 10px, 1.3rem = 13px, em is relative to parent container, vw = viewport width or vh = viewport height
+}
+
+h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  // width: 70vw;
+  // height: 90vh;
+  // margin: 3rem auto;
+  padding: 2rem;
+  align-items: center;
+  background-color: #82c4eb;
+  text-align: center;
+}
+.form-text {
+  display: block; //make block level element take up whole line
+  margin: 1.5rem;
+}
+
+#final-tip {
+  text-decoration: underline;
+}
+
+#final-cost {
+  text-decoration: underline;
+}
