@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  background-color: #82c4eb;
+  text-align: center;
+}
+
+.form-text {
+  display: block;
+  margin: 1.5rem;
+}
+
+#final-tip {
+  text-decoration: underline;
+}
+
+#final-cost {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */
